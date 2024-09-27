@@ -45,15 +45,16 @@ blockquote, q {
 		content: '';
 		content: none;
 	}
-
+.welcome{
+	text-shadow: 2px 2px 4px #000000;
+}
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 .logo{
-	width: 60px;
-	height: 60px;
 	border-radius: 20px;
+	max-height: 100%;
 
 }
 body {
@@ -573,7 +574,9 @@ input, select, textarea {
 		line-height: 1.25em;
 		letter-spacing: -0.05em;
 	}
-
+	.worktext{
+		color: white;
+	}
 	@media screen and (max-width: 736px) {
 
 		h2 {
@@ -670,7 +673,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: #98c593;
+		background-color: #000000;
 		border: 0;
 		border-radius: 3.5em;
 		color: #ffffff;
@@ -866,7 +869,7 @@ input, select, textarea {
 		-webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		color: #39454b;
+		color: rgb(62, 84, 95);
 		display: block;
 		width: 100%;
 		padding: 0.65em 0.75em;
@@ -1898,7 +1901,7 @@ input, select, textarea {
 
 				#header h1 {
 					text-align: center;
-					position: relative;
+					  /*position: relative;*/
 					left: 0;
 					top: 0;
 					height: 2.5em;
@@ -2053,11 +2056,11 @@ input, select, textarea {
 			}
 
 			.main.style3.primary {
-				background: #ffffff;
+				background: #000000;
 			}
 
 			.main.style3.secondary {
-				background: #f5f6f7;
+				background: #000000;
 			}
 
 		.main.dark {
@@ -2092,6 +2095,7 @@ input, select, textarea {
 
 			.main.style2 .content {
 				width: 40%;
+				border-radius: 25px;
 			}
 
 		}
@@ -2100,6 +2104,7 @@ input, select, textarea {
 
 			.main.style2 .content {
 				width: 50%;
+				border-radius: 25px;
 			}
 
 		}
@@ -2108,6 +2113,7 @@ input, select, textarea {
 
 			.main.style2 .content {
 				width: 60%;
+				border-radius: 25px;
 			}
 
 		}
@@ -2186,8 +2192,8 @@ input, select, textarea {
 		margin: 0;
 		line-height: 1em;
 		padding: 1.5em;
-		background: #39454b;
-		color: rgba(185, 186, 187, 0.5);
+		background: #000000;
+		color: rgba(255, 255, 255, 0.5);
 		overflow: hidden;
 	}
 
@@ -2317,6 +2323,8 @@ input, select, textarea {
 
 			#contact .box {
 				padding: 1em 1em 2em 1em;
+				border-top-left-radius:25px ;
+				border-top-right-radius: 25px;
 			}
 
 		}
